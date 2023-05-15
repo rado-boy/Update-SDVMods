@@ -4,7 +4,16 @@ This is a powershell script made to download & update Stardew valley mods using 
 Requirements:
 
 - Nexus Mods Personal API Key (requires Premium)
+    - Put this in a file called 'api-key.txt' in the script root
 - Powershell (Latest preferred, should work with 5+)
+- csv list of mods
+    - Format like this: 
+    <code>
+    ModName,ModID
+    Animated Fish,5735
+    </code>
+        - ModName can technically be whatever you want, currently it isn't passed to the script
+        - ModID is the number found at the end of the URL when you visit the page for a given mod (ex: https://www.nexusmods.com/stardewvalley/mods/5735)
 
 Dependencies:
 

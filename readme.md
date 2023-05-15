@@ -9,10 +9,8 @@ Requirements:
 - csv list of mods
     - Format like this: 
 
-    <code>
-    ModName,ModID
-    Animated Fish,5735
-    </code>
+    <code>ModName,ModID
+Animated Fish,5735</code>
 
     - ModName can technically be whatever you want, currently it isn't passed to the script
     - ModID is the number found at the end of the URL when you visit the page for a given mod (ex: https://www.nexusmods.com/stardewvalley/mods/5735)
